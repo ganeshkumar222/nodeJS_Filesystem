@@ -1,11 +1,11 @@
 I have created express server and  i have made it to listen to port 8000 in local(subject to change to after deployment in render).
 
 workflow:
-since in this project there is no need of sending  a data i have used two get requets get the requirements done.
+In this project there is no need of sending  a data so i  have used two get requets get the requirements done.
 
 1)http://localhost/8000/post-file
     This request will create a file containing a timestamp.
-2)http://localhost/8000/post-file
+2)http://localhost/8000/get-file
     This request will return the data array (array of objects) which holds the details about the file name and the details of the same.
 
     postman documentation link:
